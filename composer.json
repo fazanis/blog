@@ -1,0 +1,20 @@
+{
+    "name": "fazanis/blog",
+    "description": "blog 30 days",
+    "authors": [
+        {
+            "name": "fazanis",
+            "email": "web.master.88@mail.ru"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "twig/twig": "^2.6"
+    },
+     "autoload": {
+        "psr-4": {
+            "Services\\": "services",
+            "App\\": "app"
+        }
+    }
+}
